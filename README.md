@@ -36,7 +36,7 @@ Supports **Google login**, JWT authentication, and interactive data visualizatio
 ![Profile Page](screenshots/profile.png)
 
 ### Analytics Charts
-![Analytics Charts](screenshots/dashboard-charts.png)
+![Settings](screenshots/settings.png)
 
 ---
 
