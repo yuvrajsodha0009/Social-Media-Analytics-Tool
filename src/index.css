@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+}
+
+@layer components {
+  .grid-div-small {
+    @apply bg-blue-800 p-4 rounded-lg min-h-[250px];
+  }
+
+  .grid-div-big {
+    @apply bg-blue-800 p-6 rounded-lg min-h-[250px];
+  }
+
+  .li-btn {
+    @apply text-left font-semibold px-2 py-2 my-1.5 w-56 rounded-md cursor-pointer
+        hover:bg-gray-700 focus:bg-gray-600 focus:font-bold;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-purple-800 to-red-800;
+  }
+  .input-field {
+    @apply focus:border-indigo-600 focus:outline-none border-0 border-gray-300 border-b-3  p-2 hover:border-indigo-300;
+  }
+
+  .btn-primary {
+    @apply h-auto w-30 bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition;
+  }
+}
+
+@layer utilities {
+}
