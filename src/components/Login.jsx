@@ -85,13 +85,12 @@ const Login = () => {
           <button type="submit" className="btn-primary mt-5 font-bold">
             {isLogin ? "Login" : "Sign Up"}
           </button>
-
           <button
             type="button"
             onClick={handleGoogleLogin}
-            className="btn-google mt-4 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600"
+            className="flex items-center justify-center mt-4 bg-white text-gray-700 font-medium px-5 py-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border border-gray-300 hover:bg-gray-100"
           >
-            Login with Google
+            <span>Sign in with Google</span>
           </button>
 
           <div className="flex-col mt-5">
